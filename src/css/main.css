@@ -428,6 +428,18 @@ video {
 
 
     }
+    .services-layout{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .service-main{
+      max-width:633px;
+    }
+    .service-sidebar{
+      grid-template-columns: 1fr 1fr 1fr;
+      max-width: 307px;
+    }
   
 
 
