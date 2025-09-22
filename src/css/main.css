@@ -410,6 +410,26 @@ video {
 
 /* DESKTOP - Large screens (1024px and up) */
 @media screen and (min-width: 1024px) {
+   .hero-content {
+    justify-content: center;
+   }
+    .hero-content p {
+     align-items: center;
+      max-width: 599px;
+    } 
+    .hero-content h1 {
+      font-size: 21px;
+      margin-bottom: 16px;
+      position: relative;
+      z-index: 1;
+    }
+    .features-grid {
+      grid-template-columns: 1fr 1fr 1fr$;
+
+
+    }
+  
+
 
 }
 
